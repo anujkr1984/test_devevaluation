@@ -5,21 +5,16 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* pre-populate data through seed
 
-* System dependencies
+* Ruby version  2.4
+
+* Ruby version  5.2
+
+
 
 * Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# test_devevaluation
+	
+	rake db:create
+	rake db:migrate
+	rake db:seed 
