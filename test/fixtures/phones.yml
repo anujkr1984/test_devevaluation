@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ph_number: MyString
+  is_assign: false
+  assign_date: 2020-01-25 13:22:03
+
+two:
+  ph_number: MyString
+  is_assign: false
+  assign_date: 2020-01-25 13:22:03
